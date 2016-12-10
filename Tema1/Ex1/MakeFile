@@ -1,0 +1,5 @@
+g++ -I /usr/local/ssl/include/ -L /usr/local/ssl/lib/ criptor.cpp -o criptor -lcrypto -ldl
+g++ -I /usr/local/ssl/include/ -L /usr/local/ssl/lib/ main.cpp -o main -lcrypto -ldl
+
+./criptor
+./main

@@ -1,0 +1,60 @@
+test0
+	tests/0/file1.in vs tests/0/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
+test1
+	tests/1/file1.in vs tests/1/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
+test2
+	tests/2/file1.in vs tests/2/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
+test3
+	tests/3/file1.in vs tests/3/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
+test4
+	tests/4/file1.in vs tests/4/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
+test5
+	tests/5/file1.in vs tests/5/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
+test6
+	tests/6/file1.in vs tests/6/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 1
+
+************************************
+test7
+	tests/7/file1.in vs tests/7/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
+test8
+	tests/8/file1.in vs tests/8/file2.in
+	SHA256 equal bytes : 1
+	MD256  equal bytes : 0
+
+************************************
+test9
+	tests/9/file1.in vs tests/9/file2.in
+	SHA256 equal bytes : 0
+	MD256  equal bytes : 0
+
+************************************
