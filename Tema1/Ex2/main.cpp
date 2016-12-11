@@ -122,7 +122,7 @@ int main() {
             outf<<"test"<<i<<"\n";
             outf<<"\t"<<file1<<" vs "<<file2<<'\n';
             outf<<"\t"<<"SHA256 equal bytes : "<<result[0]<<'\n';
-            outf<<"\t"<<"MD256  equal bytes : "<<result[1]<<'\n';
+            outf<<"\t"<<"MD5    equal bytes : "<<result[1]<<'\n';
             outf<<"\n************************************\n";   
         }
         printf("%i,%i", result[0], result[1]);        
