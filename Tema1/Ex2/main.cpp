@@ -42,7 +42,7 @@ void getSHA256(char *content, char *file_name) {
     SHA256_Update(&ctx, content, strlen(content));
     SHA256_Final(result, &ctx);
 
-
+    printf("***************************************\n'%s'\n***************************************",content);
     for (i = 0; i < SHA256_DIGEST_LENGTH; i++) {
         sprintf(formated_result + i * 2, "%02x", result[i]);
     }

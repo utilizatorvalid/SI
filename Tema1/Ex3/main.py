@@ -1,4 +1,5 @@
 import os
+import time
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 
@@ -32,9 +33,13 @@ if __name__ == '__main__':
     u3 = User('3', km, key_3, iv)
 
     #    user 1 initiate communication with user2
-    u1.init_communication(u2, "CFB")
-    u1.send_file('file.txt', u2)
 
+    u1.init_communication(u2, "CFB")
+    time.sleep(3)
+    u1.send_file('file.txt', u2)
+    time.sleep(3)
     u3.init_communication(u1,"ECB")
+    time.sleep(3)
     u1.send_file('file.txt', u3)
+    time.sleep(3)
     u2.send_file('file2.txt',u1)
